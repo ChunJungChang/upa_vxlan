@@ -14,7 +14,9 @@ Install
 VXLAN requires uthash package late 1.9.
 Please see http://uthash.sourceforge.net/ .
 
-	% git clone git://github.com/upa/vxlan.git
+	% sudo apt-get update -y
+ 	% sudo apt-get install -y uthash-dev
+	% git clone https://github.com/upa/vxlan.git
 	% cd vxlan
 	% make
 	% make install
